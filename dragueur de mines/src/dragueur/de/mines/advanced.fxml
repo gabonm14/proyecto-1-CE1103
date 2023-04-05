@@ -33,8 +33,9 @@
       </GridPane>
       <Label layoutX="98.0" layoutY="38.0" text="Minas Restantes" />
       <Label layoutX="439.0" layoutY="38.0" text="Tiempo" />
-      <Button layoutX="279.0" layoutY="34.0" mnemonicParsing="false" text="Pista" />
+      <Button layoutX="511.0" layoutY="337.0" mnemonicParsing="false" text="Pista" />
       <Label fx:id="lblminas" layoutX="127.0" layoutY="68.0" />
       <Label fx:id="lbltime" layoutX="445.0" layoutY="68.0" />
+      <Label fx:id="lblwinlose" layoutX="286.0" layoutY="38.0" />
    </children>
 </AnchorPane>
