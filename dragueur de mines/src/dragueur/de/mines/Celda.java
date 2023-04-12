@@ -40,7 +40,7 @@ public class Celda {
     }
     
     public int getCelda(){
-        if(estado){
+        if(this.estado){
             return 10;
         }else{
             return 0;

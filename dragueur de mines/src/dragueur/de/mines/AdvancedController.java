@@ -17,6 +17,16 @@ import javafx.scene.layout.AnchorPane;
  * @author gabon
  */
 public class AdvancedController implements Initializable {
+    
+    private int total=8;
+    
+    private int leftMines= this.total;
+    
+    private int turno= 0;
+    
+    private Matriz juego;
+    
+    private boolean lost;
 
     @FXML
     private Label lblminas;

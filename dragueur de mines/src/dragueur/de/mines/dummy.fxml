@@ -7,8 +7,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="dragueur.de.mines.DummyController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dragueur.de.mines.DummyController">
    <children>
       <GridPane fx:id="tabla" gridLinesVisible="true" layoutX="141.0" layoutY="116.0" prefHeight="234.0" prefWidth="318.0" AnchorPane.topAnchor="116.0">
         <columnConstraints>
@@ -34,9 +33,10 @@
       </GridPane>
       <Label layoutX="98.0" layoutY="38.0" text="Minas Restantes" />
       <Label layoutX="439.0" layoutY="38.0" text="Tiempo" />
-      <Button layoutX="509.0" layoutY="337.0" mnemonicParsing="false" text="Pista" />
+      <Button fx:id="btnpista" layoutX="509.0" layoutY="337.0" mnemonicParsing="false" text="Pista" />
       <Label fx:id="lblminas" layoutX="127.0" layoutY="68.0" />
       <Label fx:id="lbltime" layoutX="445.0" layoutY="68.0" />
       <Label fx:id="lblwinlose" layoutX="286.0" layoutY="38.0" />
+      <Label fx:id="lblpista" layoutX="176.0" layoutY="363.0" prefHeight="18.0" prefWidth="241.0" />
    </children>
 </AnchorPane>
